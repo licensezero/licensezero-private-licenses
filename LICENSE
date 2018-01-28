@@ -1,25 +1,10 @@
-Licenze Zero {{#solo}}Solo{{/solo}}{{#team}}Team{{/team}}{{#company}}Company{{/company}}{{#enterprise}}Enterprise{{/enterprise}} Private License
+License Zero Private License
 Version {{{version}}}
 https://licensezero.com
 
-These terms are derived from:
+Date: {{{date}}} (ISO 8601)
 
-The Apache License, Version 2.0
-(c) 2004 The Apache Foundation
-https://www.apache.org/licenses/
-
-{{{date}}} (ISO 8601)
-
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-   1. Definitions.
-
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
-
-      "Licensor" shall mean:
-
-          {{{licensorName}}}
+Licensor: {{{licensorName}}}
           {{{licensorJurisdiction}}} (ISO 3166-2)
 
           acting through their agent:
@@ -28,124 +13,89 @@ https://www.apache.org/licenses/
           {{{agentJurisdiction}}} (ISO 3166-2)
           {{{agentWebsite}}}
 
-      "You" (or "Your") shall mean:
-
-          {{{licenseeName}}}
+Licensee: {{{licenseeName}}}
           {{{licenseeJurisdiction}}} (ISO 3166-2)
+          {{{licenseeEmail}}}
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+Project:  {{{projectID}}}
+          {{{description}}}
+          {{{repository}}}
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+1.  Background
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, and any later work of
-      authorship that the Licensor publishes and offers for license with
-      the same project ID:
+    1.  I have made contributions to the project.
 
-          Project ID:   {{{projectID}}}
-          Repository:   {{{description}}}
-          Description:  {{{repository}}}
+    2.  I license my contributions to the public on the
+        terms of either the License Zero Noncommercial
+        Public License (L0-NC) or the License Zero
+        Reciprocal Public License (L0-R).
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+    3.  Broadly speaking, L0-NC's conditions limit use for
+        commercial purposes to a limited number of calendar
+        days, and L0-R's conditions require you to release
+        changes to, software built on, and software build
+        using the project as open source software.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, the Licensor hereby grants to You a nontransferable,
-      perpetual, worldwide, non-exclusive, irrevocable copyright license
-      to reproduce, prepare Derivative Works of, publicly display, publicly
-      perform, and distribute the Work and such Derivative Works in Source
-      or Object form.
+    4.  This is a separate license for my contributions to
+        the project, with different conditions.
 
-      Licensor represents that Licensor is legally entitled to grant the
-      above copyright license.
+    5.  Broadly speaking, this license lets you to use my
+        contributions to the project for commercial
+        purposes, and to create software that is not
+        released as open source.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, the Licensor hereby grants to You a nontransferable,
-      perpetual, worldwide, non-exclusive, irrevocable (except as stated in
-      this section) patent license to make, have made, use, offer to sell,
-      sell, import, and otherwise transfer the Work. If You institute patent
-      litigation against any entity (including a cross-claim or counterclaim
-      in a lawsuit) alleging that the Work constitutes direct or contributory
-      patent infringement, then any patent licenses granted to You under this
-      License for that Work shall terminate as of the date such litigation
-      is filed.
+    6.  However, this is a private license that applies only
+        to you, and to a more limited extent those you're
+        allowed to sublicense.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      comply with Condition 1 of the the License Zero Public License
-      applied to the Work.
+2.  Copyright License
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications,
-      provided Your use, reproduction, and distribution of the Work
-      otherwise complies with the conditions stated in this License.
+    Subject to the other terms this license, I grant you a
+    perpetual, worldwide, non-exclusive, royalty-free,
+    irrevocable copyright license to reproduce, prepare
+    derivative works of, publicly display, publicly perform,
+    and distribute my contributions to the project, in
+    source code or compiled form.
 
-   5. Sublicensing. {{#solo}}The licenses granted in Section 2 (Grant of Copyright
-      License) and Section 3 (Grant of Patent License) do not permit You
-      to sublicense.{{/solo}}{{#team}}The licenses granted in Section 2 (Grant of Copyright
-      License) and Section 3 (Grant of Patent License) permit You to
-      sublicense Your employees and natural-person independent contractors
-      providing services to You, up to a maximum of {{{limit}}} individuals
-      sublicensed to exercise permission under this License in any rolling
-      365-calendar-day period.{{/team}}{{#company}}The licenses granted in Section 2 (Grant of Copyright
-      License) and Section 3 (Grant of Patent License) permit You to
-      sublicense Your employees and natural-person independent contractors
-      providing services to You, up to a maximum of {{{limit}}} individuals
-      sublicensed to exercise permission under this License in any rolling
-      365-calendar-day period.{{/company}}{{#enterprise}}The licenses granted in Section 2 (Grant of Copyright
-      License) and Section 3 (Grant of Patent License) permit You to
-      sublicense Your employees and natural-person independent contractors
-      providing services to You.{{/enterprise}}
+3.  Patent License
 
-      Your sublicensees may not sublicense in turn.
+    Subject to the other terms of this license, I grant you
+    a perpetual, worldwide, non-exclusive, royalty-free,
+    irrevocable patent license to make, have made, use,
+    offer to sell, import, and otherwise transfer the
+    project.  That license applies only to patent claims I
+    can license that are necessarily infringed by my
+    contributions alone, or by combination of my
+    contributions with the project as it was when I
+    submitted my contributions.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work.
+4.  Defensive Termination
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+    If you sue anyone (including by cross-claim or
+    counter-claim) alleging that the project or a
+    contribution to the project constitutes direct or
+    contributory patent infringement, any patent licenses
+    granted to you under this license terminate on the date
+    you file the litigation.
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall the Licensor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if the Licensor
-      has been advised of the possibility of such damages.
+5.  Redistribution
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of the Licensor, and only if You agree to indemnify,
-      defend, and hold the Licensor harmless for any liability
-      incurred by, or claims asserted against, the Licensor by reason
-      of your accepting any such warranty or additional liability.
+    You must ensure that everyone who gets a copy of the
+    project from you, in source code or any other form, also
+    gets the complete text of the public license applied to
+    my contributions to the project, including copyright and
+    source notices.
 
-   END OF TERMS AND CONDITIONS
+6.  Trademarks
+
+    This license does not grant you permission to use my
+    trade names, trademarks, service marks, or product
+    names, except as required for reasonable and customary
+    use in describing the origin of the project.
+
+7.  No Liability
+
+    My contributions to the project come as is, without any
+    warranty at all.  As far as the law allows, I will not
+    be liable for any damages related to the project or this
+    license, for any kind of legal claim.
